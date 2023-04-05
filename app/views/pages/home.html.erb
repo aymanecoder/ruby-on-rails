@@ -5,10 +5,72 @@
   </head>
 
   <body>
-        <h1> home Controller </h1>
+        <header>
 
-        <div>
-            welcome to the home controller
+  <nav
+    class="relative flex w-full items-center justify-between bg-white py-2 text-neutral-600 shadow-lg hover:text-neutral-700 focus:text-neutral-700 dark:bg-neutral-600 dstark:text-neutral-200 md:flex-wrap md:justify-start"
+    data-te-navbar-ref style="background-color:#404040">
+    <div class="flex w-full flex-wrap items-center justify-between px-6">
+      <div class="flex items-center">
+        <button
+          class="mr-2 border-0 bg-transparent py-2 text-xl leading-none transition-shadow duration-150 ease-in-out hover:text-neutral-700 focus:text-neutral-700 dark:hover:text-white dark:focus:text-white lg:hidden"
+          type="button"
+          data-te-collapse-init
+          data-te-target="#navbarSupportedContentX"
+          aria-controls="navbarSupportedContentX"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="[&>svg]:w-5">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="h-6 w-6">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+          </span>
+        </button>
+      </div>
+      <div
+        class="!visible hidden grow basis-[100%] items-center lg:!flex lg:basis-auto"
+        id="navbarSupportedContentX"
+        data-te-collapse-item>
+      </div>
+    </div>
+  </nav>
+
+  <div
+    class="relative overflow-hidden bg-cover bg-no-repeat"
+    style="
+      background-position: 100%;
+      background-image: url('https://tecdn.b-cdn.net/img/new/slides/146.webp');
+      height: 654px;
+    ">
+    <div
+      class="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+      style="background-color: rgba(0, 0, 0, 0.75)">
+      <div class="flex h-full items-center justify-center">
+        <div class="px-6 text-center text-white md:px-12">
+          <h1 class="mb-6 text-5xl font-bold">LE BLOG</h1>
+          <p class="mb-8 text-xl font-bold">Un blog est un type de site web  -ou une partie d'un site web -utilise pour la publication 
+            periodique est reguliere d'articles ,genralement succinte et rendant compte une actualite autour d'un sujet donne ou 
+            d'une profession  <a href="https://www.wikipedia.org/wiki/Blog"> wikipedia</a></p>
+          <button
+            type="button"
+            class="inline-block rounded border-2 border-neutral-50 px-6 pt-2 pb-[6px] text-xs font-medium uppercase leading-normal text-neutral-50 transition duration-150 ease-in-out hover:border-neutral-100 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-neutral-100 focus:border-neutral-100 focus:text-neutral-100 focus:outline-none focus:ring-0 active:border-neutral-200 active:text-neutral-200 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
+            data-te-ripple-init
+            data-te-ripple-color="light">
+            learn more
+          </button>
         </div>
+      </div>
+    </div>
+  </div>
+</header>
   </body>
 </html>
